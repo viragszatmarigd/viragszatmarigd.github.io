@@ -1,1 +1,0 @@
-# viragszatmarigd.github.io

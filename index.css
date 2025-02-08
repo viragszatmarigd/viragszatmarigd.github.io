@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*, *::before, *::after { 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover, a:focus, a:focus-visible, a:active {
+    outline: none;
+}
+:root {
+    --clr-neutral: rgb(195, 198, 208);
+    --clr-accent: rgb(65, 13, 255);
+    --clr-accent-dark: rgb(42, 7, 165);
+    --clr-white: rgb(255, 255, 255, 1);
+    --main-font: "Sora", sans-serif;
+}
+
+body {
+    background: var(--clr-accent);
+    font-size: 16px;
+    color: var(--clr-accent);
+}
+
+.main {
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-family: Sora;
+    color:var(--clr-neutral);
+}
+.cs {
+    width: max-content;
+    height: max-content;
+    
+    display: block;
+
+    font-size:3em;
+    margin:50px;
+    margin-bottom:10px;
+}
+.info {
+    font-weight:300;
+}
