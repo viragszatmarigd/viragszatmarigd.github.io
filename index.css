@@ -36,7 +36,7 @@ body {
     flex-direction: column;
     
     font-family: Sora;
-    color:var(--clr-neutral);
+    color:var(--clr-white);
 }
 .cs {
     width: max-content;
